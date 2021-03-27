@@ -1,0 +1,20 @@
+<div class="mt-2">
+    <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+                <img [src]="images[0]" style="width: 1400px;height: 380px;" alt="Random first slide">
+            </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+                <img [src]="images[1]" style="width: 1400px;height: 380px;" alt="Random second slide">
+            </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+                <img [src]="images[2]" style="width: 1400px;height: 380px;" alt="Random third slide">
+            </div>
+    
+        </ng-template>
+    </ngb-carousel>
+    </div>
